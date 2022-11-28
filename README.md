@@ -3,14 +3,15 @@
 
 This project is all about selection and reservation of amenities (Like Swimming Pool, Gym, Steam Bath, Yoga.
 There are 2 microservices used in this project. One for Experience-MS another for Management-MS.
-
+Time is allowed to select as 1 hour time frame.
 
 Experience-MS powers:
 
-1) User can enter his basic details like name, age, gender ...
-2) User can choose the amenity for analysing the price, age constraints and current reservation status.
-3) After the submission of analysing details user can see the fee details and reservation status.
-4) If reservation is full, User is not allowed to make reservation.
+1)User can enter his basic details like name, age, gender ...
+2)User can choose the amenity for analysing the price, age constraints and current reservation status.
+3)After the submission of analysing details user can see the fee details and reservation status.
+4)If reservation is full, User is not allowed to make reservation.
+5)User Cannot delete a reservation.
 
 Admin(Management-MS) Side:
 
@@ -20,4 +21,16 @@ b)min age for gym is 18 and max age is 60.
 c) min age and max age for both steam bath is 10 and 60.
 
 2)Price constrains:
+there are 2 shedules [9am to 5pm] and [5pm to 9pm] for 3 amenities.
 a)
+b)
+c)
+d)
+
+3)Admin can create, view, update and delete reservation.
+
+4)Reservation constraints:
+a)Only 5 persons are allowed to enter Swimming Pool in a timeframe.
+b)Only 10 persons are allowed to enter Steam Bath in a timeframe.
+c)Only 5 persons are allowed to enter Gym in a timeframe.
+d)Only 5 persons are allowed to enter Yoga at a time.
